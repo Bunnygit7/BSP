@@ -17,7 +17,7 @@ function Nav() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="menuItems">
-          <ul class="nav h3" >
+          <ul class="nav h4" >
             <li class="nav-item">
               <a class="nav-link active  text-danger" aria-current="page" href="#">
                 Home
@@ -28,14 +28,20 @@ function Nav() {
                 Blog
               </a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link  text-danger"  text-danger href="#">
+              <a class="nav-link  text-danger" href="#">
+                My Tube
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-danger"  text-danger href="BSP CV.pdf" target="_blank">
                 Resume
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  text-danger" href="#">
-                My Tube
+              <a class="nav-link  text-danger"  text-danger href="#">
+                Projects
               </a>
             </li>
           </ul>

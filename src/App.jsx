@@ -6,11 +6,12 @@ import FireBackground from "./components/FireBackground";
 import Footer from "./components/Footer";
 import './App.css'
 import Form from "./components/Form";
+import { Route,Routes } from "react-router-dom";
 function App() {
   return (
    
 
-      <div className="">
+      <>
         <Nav />
         <Intro/>
         <hr />
@@ -18,7 +19,8 @@ function App() {
         <hr />
         <Form/>
         <Footer/>
-      </div>
+       
+      </>
   
   );
 }
