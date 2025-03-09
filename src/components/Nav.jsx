@@ -1,9 +1,9 @@
 function Nav() {
   return (
     <div className="container-fluid bg-dark">
-      <nav className="navbar navbar-dark navbar-expand-sm">
+      <nav className="navbar navbar-dark navbar-expand-sm d-flex">
         <a href="#" className="navbar-brand">
-          BSP
+          <img src="BSP-logo-removebg-preview.png" alt="" srcset="" height='50'/>
         </a>
         <button
           className="navbar-toggler"
@@ -16,8 +16,8 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="menuItems">
-          <ul class="nav justify-content-end">
+        <div className="collapse navbar-collapse justify-content-end" id="menuItems">
+          <ul class="nav h3" >
             <li class="nav-item">
               <a class="nav-link active  text-danger" aria-current="page" href="#">
                 Home

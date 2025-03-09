@@ -14,7 +14,7 @@ function Footer() {
         <h5><a href=""className='text-black link-underline-danger'>GitHub</a></h5>
         <h5><a href=""className='text-black link-underline-danger'>Twitter</a></h5>
       </div>
-      <h6>2025 Shiva Prasad Battula.</h6>
+      <h6>&copy; 2025 Shiva Prasad Battula.</h6>
     </div>
   )
 }

@@ -8,17 +8,18 @@ import './App.css'
 import Form from "./components/Form";
 function App() {
   return (
-    <div className="relative">
-      {/* <FireBackground /> */}
+   
 
-      <div className="relative z-10">
+      <div className="">
         <Nav />
-        <Intro />
+        <Intro/>
+        <hr />
         <Skills />
+        <hr />
         <Form/>
         <Footer/>
       </div>
-    </div>
+  
   );
 }
 
